@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/@aria_LIBRARY_DIR@
+includedir=${prefix}/@aria_INCLUDE_DIR@
+
+Name: Aria
+Description: Adept MobileRobots Advanced Robotics Interface for Applications
+Version: @aria_VERSION@
+Libs: -L${libdir} -laria
+Cflags: -I${includedir}

@@ -1,0 +1,90 @@
+Source: libaria
+Priority: extra
+Maintainer: Adam Oleksy <adam.oleksy@pwr.wroc.pl>
+Build-Depends: debhelper (>= 7.0.50~), cmake, doxygen, graphviz
+Standards-Version: 3.9.1
+Section: libs
+
+Package: libaria-dev
+Section: libdevel
+Architecture: any
+Depends: libaria2.7 (= ${binary:Version})
+Description: ARIA - Advanced Robotics Interface for Applications - development files
+ ARIA is an object-oriented, application programming interface (API) for
+ MobileRobots' (and ActivMedia) line of intelligent mobile robots, including
+ Pioneer 2/3 DX and AT, PeopleBot, PowerBot, and AmigoBot mobile robots.
+ Written in the C++ language, ARIA is client-side software for easy,
+ high-performance access to and management of the robot server, as well
+ to the many accessory robot sensors and effectors, and useful utilities. 
+ .  
+ ARIA can be run multi- or single-threaded, using its own wrapper
+ around Linux pthreads and WIN32 threads.  Use ARIA in many different
+ ways, from simple command-control of the robot server for direct-drive
+ navigation, to development of higher-level intelligent actions (aka
+ behaviors).   Add your own features and modifications to ARIA: It's 
+ open-source!
+ .
+ The ARIA package includes both source code and pre-build libraries
+ and example programs. These libraries and programs were build with
+ GCC 3.4 if on Linux, and MS Visual Studio .NET 2003 (7.1) if on
+ Windows.  Using these compilers for development is recommended. If
+ you use a different compiler, you must rebuild the ARIA libraries.
+ .
+ See below for more information about building programs with ARIA
+ on Windows and Linux and using the Windows and Linux development tools.
+
+Package: libaria2.7
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ARIA - Advanced Robotics Interface for Applications - library
+ ARIA is an object-oriented, application programming interface (API) for
+ MobileRobots' (and ActivMedia) line of intelligent mobile robots, including
+ Pioneer 2/3 DX and AT, PeopleBot, PowerBot, and AmigoBot mobile robots.
+ Written in the C++ language, ARIA is client-side software for easy,
+ high-performance access to and management of the robot server, as well
+ to the many accessory robot sensors and effectors, and useful utilities. 
+ .  
+ ARIA can be run multi- or single-threaded, using its own wrapper
+ around Linux pthreads and WIN32 threads.  Use ARIA in many different
+ ways, from simple command-control of the robot server for direct-drive
+ navigation, to development of higher-level intelligent actions (aka
+ behaviors).   Add your own features and modifications to ARIA: It's 
+ open-source!
+ .
+ The ARIA package includes both source code and pre-build libraries
+ and example programs. These libraries and programs were build with
+ GCC 3.4 if on Linux, and MS Visual Studio .NET 2003 (7.1) if on
+ Windows.  Using these compilers for development is recommended. If
+ you use a different compiler, you must rebuild the ARIA libraries.
+ .
+ See below for more information about building programs with ARIA
+ on Windows and Linux and using the Windows and Linux development tools.
+
+Package: libaria-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends}
+Description: ARIA - Advanced Robotics Interface for Applications - documentation
+ ARIA is an object-oriented, application programming interface (API) for
+ MobileRobots' (and ActivMedia) line of intelligent mobile robots, including
+ Pioneer 2/3 DX and AT, PeopleBot, PowerBot, and AmigoBot mobile robots.
+ Written in the C++ language, ARIA is client-side software for easy,
+ high-performance access to and management of the robot server, as well
+ to the many accessory robot sensors and effectors, and useful utilities. 
+ .  
+ ARIA can be run multi- or single-threaded, using its own wrapper
+ around Linux pthreads and WIN32 threads.  Use ARIA in many different
+ ways, from simple command-control of the robot server for direct-drive
+ navigation, to development of higher-level intelligent actions (aka
+ behaviors).   Add your own features and modifications to ARIA: It's 
+ open-source!
+ .
+ The ARIA package includes both source code and pre-build libraries
+ and example programs. These libraries and programs were build with
+ GCC 3.4 if on Linux, and MS Visual Studio .NET 2003 (7.1) if on
+ Windows.  Using these compilers for development is recommended. If
+ you use a different compiler, you must rebuild the ARIA libraries.
+ .
+ See below for more information about building programs with ARIA
+ on Windows and Linux and using the Windows and Linux development tools.

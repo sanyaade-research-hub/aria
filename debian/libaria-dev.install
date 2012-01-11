@@ -1,0 +1,4 @@
+usr/include/aria/*
+usr/lib/aria/lib*.a
+usr/lib/aria/lib*.so
+usr/lib/pkgconfig/*
